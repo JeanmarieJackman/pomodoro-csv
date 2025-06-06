@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+/* Background and text colors */
+.app-container {
+  background-color: #f0f4f8; /* light bluish gray */
+  color: #1a1a1a; /* dark text */
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Bold labels */
+.form-label {
+  font-weight: 700;
+  color: #2c3e50; /* darker blue-gray */
+}
+
+/* Custom button colors */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #a71d2a;
+  border-color: #a71d2a;
+}
