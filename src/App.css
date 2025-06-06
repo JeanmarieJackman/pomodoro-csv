@@ -82,3 +82,23 @@
   background-color: #a71d2a;
   border-color: #a71d2a;
 }
+.app-container {
+  max-width: 600px;  /* max width */
+  margin: 0 auto;    /* center horizontally */
+  background-color: #f0f4f8;
+  padding: 2rem 1rem;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="date"],
+input[type="time"] {
+  width: 140px; /* fixed width */
+}
+
+input[type="text"] {
+  max-width: 280px; /* wider but capped */
+  width: 100%;
+}
